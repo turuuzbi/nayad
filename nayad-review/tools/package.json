@@ -1,0 +1,23 @@
+{
+  "name": "nayad-review-tools",
+  "private": true,
+  "type": "module",
+  "description": "Passive capture + audit tooling for the NAYAD public-site review (read-only, public URLs only).",
+  "scripts": {
+    "capture": "node capture.mjs",
+    "lighthouse": "node lighthouse.mjs",
+    "axe": "node axe.mjs",
+    "contrast": "node contrast.mjs",
+    "smoke:prototype": "node prototype-smoke.mjs",
+    "assets:prototype": "node render-prototype-assets.mjs",
+    "test": "node --test lib/*.test.mjs"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "lighthouse": "13.5.0",
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=22.19"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Raw captures of the live site contain the owner's copy and branding.
+# The repo is public, so keep them local unless the owner agrees to share them.
+findings/raw/live/
+screenshots/live/
