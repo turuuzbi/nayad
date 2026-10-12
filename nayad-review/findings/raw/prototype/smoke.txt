@@ -1,0 +1,12 @@
+PASS  viewport meta allows zoom
+PASS  skip link is first tab stop and moves focus to <main>
+PASS  waitlist: empty submit shows Mongolian error, sets aria-invalid, focuses field
+PASS  waitlist: malformed phone shows format hint
+PASS  waitlist: switching to email changes input type and keyboard
+PASS  waitlist: valid number shows confirmation in a focused status region
+PASS  FAQ opens with keyboard (native details/summary)
+PASS  no console errors or CSP violations
+PASS  no horizontal scroll at 320px: /
+PASS  no horizontal scroll at 320px: /privacy
+PASS  no horizontal scroll at 320px: /terms
+PASS  200% text size: no page-level horizontal scroll

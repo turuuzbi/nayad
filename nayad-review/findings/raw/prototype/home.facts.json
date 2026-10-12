@@ -1,0 +1,293 @@
+{
+  "url": "http://localhost:3100/",
+  "title": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+  "lang": "mn",
+  "dir": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+  "robots": null,
+  "themeColor": [
+    {
+      "content": "#FFC107",
+      "media": "(prefers-color-scheme: light)"
+    },
+    {
+      "content": "#121212",
+      "media": "(prefers-color-scheme: dark)"
+    }
+  ],
+  "canonical": "https://nayad.store/",
+  "hreflang": [],
+  "manifest": "http://localhost:3100/manifest.webmanifest",
+  "appleTouchIcon": [
+    "http://localhost:3100/apple-icon.png?apple-icon.07k__m4ellya5.png"
+  ],
+  "icons": [
+    {
+      "href": "http://localhost:3100/favicon.ico?favicon.450-t5mvjom_5.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "href": "http://localhost:3100/icon.svg?icon.3ga2g0epd1ft9.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "og": {
+    "og:title": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "og:description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+    "og:url": "https://nayad.store",
+    "og:site_name": "NAYAD",
+    "og:locale": "mn_MN",
+    "og:image": "https://nayad.store/og.png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "og:type": "website"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "twitter:description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+    "twitter:image": "https://nayad.store/og.png"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://nayad.store/#org",
+          "name": "NAYAD",
+          "url": "https://nayad.store",
+          "logo": "https://nayad.store/icon-512.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://nayad.store/#website",
+          "url": "https://nayad.store",
+          "name": "NAYAD",
+          "inLanguage": "mn",
+          "publisher": {
+            "@id": "https://nayad.store/#org"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "NAYAD",
+          "url": "https://nayad.store",
+          "description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web, iOS, Android",
+          "inLanguage": "mn",
+          "publisher": {
+            "@id": "https://nayad.store/#org"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "NAYAD ашиглахад төлбөртэй юу?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Үнийн төлөвлөгөө удахгүй зарлагдана. Мэдэгдэл авахыг хүсвэл «Үнэ» хэсэгт утас эсвэл имэйлээ үлдээгээрэй."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "App Store эсвэл Play Store-оос татах шаардлагатай юу?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Үгүй. NAYAD хөтөч дээр ажилладаг. Хүсвэл утасныхаа нүүр дэлгэцэнд нэмээд апп шиг нээж болно."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Компьютер дээр ашиглаж болох уу?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Болно. Компьютер, таблет, утасны аль ч хөтчөөр nayad.store руу ороод нэвтэрнэ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Өмнө нь имэйлээр бүртгүүлсэн. Яаж нэвтрэх вэ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Нэвтрэх хуудаснаас имэйлээр нэвтрэх сонголтыг дараад өмнөх имэйл, нууц үгээрээ орно."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Нууц үгээ мартсан бол яах вэ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Нэвтрэх хуудсан дээрх нууц үг сэргээх холбоосыг дарж, шинэ нууц үг үүсгэнэ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Миний мэдээллийг өөр хүн харах уу?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Таны оруулсан өглөг, падаан, төлөлт зөвхөн таны бүртгэлээр нэвтэрсэн үед харагдана."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Өглөг, падаан, төлөлтөө нэг дор хөтлөөрэй"
+    },
+    {
+      "level": 2,
+      "text": "Тооцоогоо цэгцлэх бүх зүйл"
+    },
+    {
+      "level": 3,
+      "text": "Өглөг"
+    },
+    {
+      "level": 3,
+      "text": "Падаан"
+    },
+    {
+      "level": 3,
+      "text": "Төлөлт"
+    },
+    {
+      "level": 3,
+      "text": "Зээл"
+    },
+    {
+      "level": 3,
+      "text": "Утсандаа суулгана"
+    },
+    {
+      "level": 3,
+      "text": "Хялбар нэвтрэлт"
+    },
+    {
+      "level": 2,
+      "text": "Гурван алхмаар эхэлнэ"
+    },
+    {
+      "level": 3,
+      "text": "1-р алхам: Бүртгүүлэх"
+    },
+    {
+      "level": 3,
+      "text": "2-р алхам: Харилцагч, падаанаа оруулах"
+    },
+    {
+      "level": 3,
+      "text": "3-р алхам: Төлөлтөө тэмдэглэх"
+    },
+    {
+      "level": 2,
+      "text": "Утсандаа суулгах"
+    },
+    {
+      "level": 3,
+      "text": "iPhone · Safari"
+    },
+    {
+      "level": 3,
+      "text": "Android · Chrome"
+    },
+    {
+      "level": 2,
+      "text": "Үнэ"
+    },
+    {
+      "level": 2,
+      "text": "Түгээмэл асуулт"
+    },
+    {
+      "level": 2,
+      "text": "Дэвтрээ утсаараа солих цаг боллоо"
+    },
+    {
+      "level": 2,
+      "text": "Холбоо барих"
+    },
+    {
+      "level": 2,
+      "text": "Мэдээлэл"
+    }
+  ],
+  "h1Count": 1,
+  "emoji": [],
+  "smallTargets": [],
+  "images": [],
+  "forms": [
+    {
+      "action": null,
+      "method": null,
+      "fields": [
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "kind",
+          "autocomplete": null,
+          "inputmode": null,
+          "hasLabel": true,
+          "placeholderOnly": false
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "kind",
+          "autocomplete": null,
+          "inputmode": null,
+          "hasLabel": true,
+          "placeholderOnly": false
+        },
+        {
+          "tag": "input",
+          "type": "tel",
+          "name": "contact",
+          "autocomplete": "tel-national",
+          "inputmode": null,
+          "hasLabel": true,
+          "placeholderOnly": false
+        }
+      ]
+    }
+  ],
+  "framework": {
+    "nextData": false,
+    "nextAppRouter": true,
+    "nextAssets": true,
+    "reactRoot": false,
+    "vite": false
+  },
+  "bodyBackground": "rgb(255, 253, 247)",
+  "bodyColor": "rgb(26, 26, 26)",
+  "textLength": 3030,
+  "sameOriginLinks": [
+    "http://localhost:3100/#main",
+    "http://localhost:3100/",
+    "http://localhost:3100/#features",
+    "http://localhost:3100/#how",
+    "http://localhost:3100/#install",
+    "http://localhost:3100/#pricing",
+    "http://localhost:3100/#faq",
+    "http://localhost:3100/app",
+    "http://localhost:3100/app",
+    "http://localhost:3100/app",
+    "http://localhost:3100/#how",
+    "http://localhost:3100/app",
+    "http://localhost:3100/app",
+    "http://localhost:3100/privacy",
+    "http://localhost:3100/terms",
+    "http://localhost:3100/#faq"
+  ]
+}

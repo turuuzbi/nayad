@@ -1,0 +1,105 @@
+{
+  "capturedAt": "2026-10-12T06:40:56.601Z",
+  "base": "http://localhost:3100/",
+  "label": "prototype",
+  "pages": [
+    {
+      "url": "http://localhost:3100/",
+      "slug": "home",
+      "status": 200,
+      "serverHtmlBytes": 160425,
+      "serverHtmlHasText": 3459,
+      "renderedTextLength": 3030,
+      "cookies": [],
+      "serviceWorkers": []
+    },
+    {
+      "url": "http://localhost:3100/app",
+      "slug": "app",
+      "status": 200,
+      "serverHtmlBytes": 87040,
+      "serverHtmlHasText": 246,
+      "renderedTextLength": 202,
+      "cookies": [],
+      "serviceWorkers": []
+    },
+    {
+      "url": "http://localhost:3100/privacy",
+      "slug": "privacy",
+      "status": 200,
+      "serverHtmlBytes": 97431,
+      "serverHtmlHasText": 1035,
+      "renderedTextLength": 1004,
+      "cookies": [],
+      "serviceWorkers": []
+    },
+    {
+      "url": "http://localhost:3100/terms",
+      "slug": "terms",
+      "status": 200,
+      "serverHtmlBytes": 96744,
+      "serverHtmlHasText": 900,
+      "renderedTextLength": 867,
+      "cookies": [],
+      "serviceWorkers": []
+    }
+  ],
+  "homeResourceTotals": {
+    "document": {
+      "count": 1,
+      "transferBytes": 27681,
+      "bodyBytes": 26642
+    },
+    "script": {
+      "count": 8,
+      "transferBytes": 150591,
+      "bodyBytes": 142853
+    },
+    "other": {
+      "count": 1,
+      "transferBytes": 1164,
+      "bodyBytes": 257
+    },
+    "fetch": {
+      "count": 5,
+      "transferBytes": 22106,
+      "bodyBytes": 17206
+    }
+  },
+  "robots": {
+    "status": 200
+  },
+  "sitemap": {
+    "status": 200
+  },
+  "manifest": {
+    "url": "http://localhost:3100/manifest.webmanifest",
+    "status": 200
+  },
+  "serviceWorkerScripts": [],
+  "darkModeBodyBackground": {
+    "home": {
+      "light": "rgb(255, 253, 247)",
+      "dark": "rgb(18, 18, 18)"
+    },
+    "app": {
+      "light": "rgb(255, 253, 247)",
+      "dark": "rgb(18, 18, 18)"
+    },
+    "privacy": {
+      "light": "rgb(255, 253, 247)",
+      "dark": "rgb(18, 18, 18)"
+    },
+    "terms": {
+      "light": "rgb(255, 253, 247)",
+      "dark": "rgb(18, 18, 18)"
+    }
+  },
+  "secretFindings": [],
+  "log": [
+    "✓ http://localhost:3100/ (15 resources)",
+    "✓ http://localhost:3100/app (15 resources)",
+    "✓ http://localhost:3100/privacy (15 resources)",
+    "✓ http://localhost:3100/terms (15 resources)"
+  ]
+}

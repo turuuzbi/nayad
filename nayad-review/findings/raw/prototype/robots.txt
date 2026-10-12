@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /app
+
+Host: https://nayad.store
+Sitemap: https://nayad.store/sitemap.xml

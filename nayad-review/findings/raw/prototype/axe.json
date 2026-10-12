@@ -1,0 +1,63 @@
+[
+  {
+    "url": "http://localhost:3100/",
+    "scheme": "light",
+    "violations": [],
+    "passes": 48,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 1
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:3100/privacy",
+    "scheme": "light",
+    "violations": [],
+    "passes": 38,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/terms",
+    "scheme": "light",
+    "violations": [],
+    "passes": 38,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/app",
+    "scheme": "light",
+    "violations": [],
+    "passes": 33,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/",
+    "scheme": "dark",
+    "violations": [],
+    "passes": 48,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/privacy",
+    "scheme": "dark",
+    "violations": [],
+    "passes": 38,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/terms",
+    "scheme": "dark",
+    "violations": [],
+    "passes": 38,
+    "incomplete": []
+  },
+  {
+    "url": "http://localhost:3100/app",
+    "scheme": "dark",
+    "violations": [],
+    "passes": 33,
+    "incomplete": []
+  }
+]

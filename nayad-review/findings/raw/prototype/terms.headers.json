@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:3100/terms",
+  "status": 200,
+  "redirectedFrom": "http://localhost:3100/terms",
+  "headers": {
+    "cache-control": "s-maxage=31536000",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+    "content-type": "text/html; charset=utf-8",
+    "cross-origin-opener-policy": "same-origin",
+    "date": "Mon, 12 Oct 2026 06:40:09 GMT",
+    "etag": "\"ze5culqsff20z1\"",
+    "keep-alive": "timeout=5",
+    "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-nextjs-cache": "HIT",
+    "x-nextjs-prerender": "1, 1",
+    "x-nextjs-stale-time": "300"
+  }
+}

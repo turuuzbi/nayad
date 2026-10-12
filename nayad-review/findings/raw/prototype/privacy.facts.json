@@ -1,0 +1,122 @@
+{
+  "url": "http://localhost:3100/privacy",
+  "title": "Нууцлалын бодлого | NAYAD",
+  "lang": "mn",
+  "dir": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "description": "NAYAD ямар мэдээлэл цуглуулж, хэрхэн хадгалж, ашигладаг тухай.",
+  "robots": null,
+  "themeColor": [
+    {
+      "content": "#FFC107",
+      "media": "(prefers-color-scheme: light)"
+    },
+    {
+      "content": "#121212",
+      "media": "(prefers-color-scheme: dark)"
+    }
+  ],
+  "canonical": "https://nayad.store/privacy",
+  "hreflang": [],
+  "manifest": "http://localhost:3100/manifest.webmanifest",
+  "appleTouchIcon": [
+    "http://localhost:3100/apple-icon.png?apple-icon.07k__m4ellya5.png"
+  ],
+  "icons": [
+    {
+      "href": "http://localhost:3100/favicon.ico?favicon.450-t5mvjom_5.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "href": "http://localhost:3100/icon.svg?icon.3ga2g0epd1ft9.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "og": {
+    "og:title": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "og:description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+    "og:site_name": "NAYAD",
+    "og:locale": "mn_MN",
+    "og:image": "https://nayad.store/og.png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "og:type": "website"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "NAYAD — өглөг, падаан, төлөлтийн бүртгэл",
+    "twitter:description": "Жижиг бизнест зориулсан өглөг, падаан, төлөлт, зээлийн бүртгэлийн апп. Хэн танд хэдэн төгрөг өртэйг утаснаасаа хараарай.",
+    "twitter:image": "https://nayad.store/og.png"
+  },
+  "jsonLd": [],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Нууцлалын бодлого"
+    },
+    {
+      "level": 2,
+      "text": "1. Бид ямар мэдээлэл цуглуулдаг вэ"
+    },
+    {
+      "level": 2,
+      "text": "2. Мэдээллийг юунд ашигладаг вэ"
+    },
+    {
+      "level": 2,
+      "text": "3. Хэнтэй хуваалцдаг вэ"
+    },
+    {
+      "level": 2,
+      "text": "4. Хэр удаан хадгалдаг вэ"
+    },
+    {
+      "level": 2,
+      "text": "5. Таны эрх"
+    },
+    {
+      "level": 2,
+      "text": "6. Холбоо барих"
+    },
+    {
+      "level": 2,
+      "text": "Холбоо барих"
+    },
+    {
+      "level": 2,
+      "text": "Мэдээлэл"
+    }
+  ],
+  "h1Count": 1,
+  "emoji": [],
+  "smallTargets": [],
+  "images": [],
+  "forms": [],
+  "framework": {
+    "nextData": false,
+    "nextAppRouter": true,
+    "nextAssets": true,
+    "reactRoot": false,
+    "vite": false
+  },
+  "bodyBackground": "rgb(255, 253, 247)",
+  "bodyColor": "rgb(26, 26, 26)",
+  "textLength": 1004,
+  "sameOriginLinks": [
+    "http://localhost:3100/privacy#main",
+    "http://localhost:3100/",
+    "http://localhost:3100/#features",
+    "http://localhost:3100/#how",
+    "http://localhost:3100/#install",
+    "http://localhost:3100/#pricing",
+    "http://localhost:3100/#faq",
+    "http://localhost:3100/app",
+    "http://localhost:3100/app",
+    "http://localhost:3100/privacy",
+    "http://localhost:3100/terms",
+    "http://localhost:3100/#faq"
+  ]
+}
