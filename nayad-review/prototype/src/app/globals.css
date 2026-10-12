@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/*
+  Color tokens. Brand yellow (#FFC107) is only ever a background behind dark text
+  (10.7:1) or a foreground on dark surfaces (11.5:1). It is never used as text on white
+  (1.6:1, fails WCAG). Text accents on light backgrounds use a dark amber instead.
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #fffdf7;
+  --surface: #ffffff;
+  --surface-2: #fff6d9;
+  --ink: #1a1a1a;
+  --muted: #555555;
+  --line: #e6dfcc;
+  --accent: #7a4a00;
+  --danger: #b3261e;
+  --danger-bg: #fdecea;
+  --warn: #7a4a00;
+  --warn-bg: #fff3cd;
+  --ok: #1e6b3a;
+  --focus: #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #1c1c1c;
+    --surface-2: #262214;
+    --ink: #f3f3f3;
+    --muted: #b8b8b8;
+    --line: #353535;
+    --accent: #ffc107;
+    --danger: #ff8a80;
+    --danger-bg: #3a1d1b;
+    --warn: #ffd54f;
+    --warn-bg: #3a3214;
+    --ok: #81d99a;
+    --focus: #ffc107;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-ok: var(--ok);
+}
+
+@theme {
+  --color-brand: #ffc107;
+  --color-brand-strong: #ffb300;
+  --color-on-brand: #1a1a1a;
+  /* System fonts: zero font download, Cyrillic on every platform (SF, Roboto, Segoe UI). */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  /* Long Mongolian words must wrap rather than push the page sideways at large text sizes. */
+  overflow-wrap: break-word;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Anchored sections must not hide under the sticky header. */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Disclosure triangle replaced by our own icon in the FAQ. */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Highlighter stroke behind a phrase. Dark text on yellow in light mode; in dark mode
+   light text cannot sit on yellow, so the phrase turns yellow instead. */
+.marker {
+  background: linear-gradient(transparent 58%, var(--color-brand) 58%, var(--color-brand) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-inline: 0.1em;
+}
+@media (prefers-color-scheme: dark) {
+  .marker {
+    background: none;
+    color: var(--color-brand);
+    padding-inline: 0;
+  }
+}
